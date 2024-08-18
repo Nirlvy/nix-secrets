@@ -7,6 +7,6 @@ let
   systems = [ NullPointer ];
 in
 {
+  "config.dae".publicKeys = users ++ systems;
   "passwd.age".publicKeys = users ++ systems;
-  "sub.age".publicKeys = users ++ systems;
 }
