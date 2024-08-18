@@ -7,5 +7,6 @@ let
   systems = [ NullPointer ];
 in
 {
-  "./sub.age".publicKeys = users ++ systems;
+  "passwd.age".publicKeys = users ++ systems;
+  "sub.age".publicKeys = users ++ systems;
 }
