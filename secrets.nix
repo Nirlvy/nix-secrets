@@ -9,4 +9,5 @@ in
 {
   "passwd.age".publicKeys = users ++ systems;
   "sub.age".publicKeys = users ++ systems;
+  "sub.yaml.age".publicKeys = users ++ systems;
 }
